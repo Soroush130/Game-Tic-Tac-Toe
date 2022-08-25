@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Game</title>
+</head>
+<body>
+    
+    <div class="box">
+        <div class="player1">
+            <h3 class="player-title">Player 1</h3>
+            <div style="border: 1px solid; margin:0 20px; height:0%; background-color: black;"></div>
+            <div class="information-player">
+                <!-- <p style="font-size: 25px;">Socre : 25</p> -->
+                <i class="fa fa-circle-o" style="font-size:80px"></i>
+            </div>
+            <div class="showResult1 player-title"></div>
+        </div>
+        <div class="box-game">
+
+            <div class="row1">
+                <div class="cell" id="1" onclick="PressButton(this)">
+                    
+                </div>
+                <div class="cell" id="2" onclick="PressButton(this)">
+                    
+                </div>
+                <div class="cell" id="3" onclick="PressButton(this)">
+                    
+                </div>
+            </div>
+            <div class="row2">
+                <div class="cell" id="4" onclick="PressButton(this)">
+                   
+                </div>
+                <div class="cell" id="5" onclick="PressButton(this)">
+                    
+                </div>
+                <div class="cell" id="6" onclick="PressButton(this)">
+                    
+                </div>
+            </div>
+            <div class="row3">
+                <div class="cell" id="7" onclick="PressButton(this)">
+                    
+                </div>
+                <div class="cell" id="8" onclick="PressButton(this)">
+                   
+                </div>
+                <div class="cell" id="9" onclick="PressButton(this)">
+                    
+                </div>
+            </div>
+            
+        </div>
+        <div class="player2">
+            <h3 class="player-title">Player 2</h3>
+            <div style="border: 1px solid; margin:0 20px; height:0%; background-color: black;"></div>
+            <div class="information-player">
+                <!-- <p style="font-size: 25px;">Socre : 25</p> -->
+                <i class="fa fa-close" style="font-size:80px"></i>
+            </div>
+            <div class="showResult2 player-title"></div>
+        </div>
+    </div>
+
+    <script src="js/functions.js"></script>
+</body>
+</html>

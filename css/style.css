@@ -1,0 +1,141 @@
+@font-face {
+    font-family: Nasa;
+    src: url("../fonts/nasalization-rg.ttf");
+}
+
+html{
+    box-sizing: border-box;
+    font-family: Nasa;
+}
+
+body{
+    background-color: #4e4e4e;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////////////////////  */
+
+.box{
+    width: 95%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+.player1, .player2{
+    background-color: #4e4e4e;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px #050505, -1px -1px 10px #c7b8b8;
+    width: 345px;
+    height: 50%;
+    margin: 15px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
+    /* align-items: center; */
+    /* flex-direction: column; */
+}
+
+.player-title{
+    text-align: center;
+    font-family: Nasa;
+    font-size: 30px;
+    margin: 5px 0 5px 0;
+}
+.information-player{
+    width: 175px;
+    height: 50%;
+    /* text-align: center; */
+    margin: 10px auto;
+}
+
+/* ///////////////////////////////////// */
+
+.box-game{
+    background-color: #4e4e4e;
+    border-radius: 20px;
+    box-shadow: inset 1px 1px 10px #050505, inset -1px -1px 10px #050505;
+    width: 760px;
+    height: 100%;
+    margin: 0 5px;
+    /* display: flex; */
+    
+}
+
+.box-game > .row1,.row2,.row3{
+    width: 100%;
+    height: 192px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-game .cell{
+    width: 253px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:inset 1px 1px 10px #050505, inset -1px -1px 10px #050505;
+}
+
+.box-game .cell i{
+    font-size: 80px;
+}
+
+.row1 div:nth-child(1){
+    border-radius: 20px 0 0 0;
+}
+.row1 div:nth-child(2){
+    border: 2px solid;
+    border-top: 0;
+    border-bottom: 0;
+}
+.row1 div:nth-child(3){
+    border-radius: 0 20px 0 0;
+}
+
+
+.row2 div:nth-child(1){
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+.row2 div:nth-child(2){
+    border: 2px solid;
+}
+.row2 div:nth-child(3){
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+
+.row3 div:nth-child(1){
+    border-radius: 0 0 0 20px;
+}
+.row3 div:nth-child(2){
+    border: 2px solid;
+    border-bottom: 0;
+    border-top: 0;
+}
+.row3 div:nth-child(3){
+    border-radius: 0 0 20px 0;
+}
+
+
+.fa-circle-o{
+    color: rgb(228, 228, 28);
+    margin: 20px 50px;
+}
+
+.fa-close{
+    color: rgb(0 27 202);
+    margin: 20px 50px;
+}
